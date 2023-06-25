@@ -1,0 +1,37 @@
+:root {
+	--main-purple: #402B4C;
+	--purple: #957D86;
+	--main-pink: #d66aa9;
+	--pink: #9a8eb9;
+	--tosca: #86DFED;
+  }
+.bg-gradient-purple{
+    background-color: var(--main-pink);
+    background-image: linear-gradient(180deg, var(--main-purple) 100%, var(--main-pink) 100%);
+    background-size: cover;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item.active,
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item.active {
+    color: var(--main-purple);
+    font-weight: 700;
+}
+.text-purple {
+    color: var(--main-purple) !important;
+}
+.text-young-purple {
+    color: var(--purple) !important;
+}
+.text-pink {
+    color: var(--main-pink) !important;
+}
+.text-young-pink {
+    color: var(--pink) !important;
+}
+.border-left-pink {
+    border-left: 0.25rem solid var(--main-pink) !important;
+}
+.bg-register-image {
+    background: url("https://img.freepik.com/free-vector/pay-balance-owed-abstract-concept-vector-illustration-making-credit-payment-pay-owed-money-bank-irs-balance-due-debt-consolidation-management-taxpayer-bill-abstract-metaphor_335657-4342.jpg?w=2000");
+    background-position: center;
+    background-size: cover;
+}
